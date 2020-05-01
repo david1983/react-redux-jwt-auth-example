@@ -9,7 +9,9 @@
     "dev": "NODE_ENV=development node --harmony bin/webpack-dev-server",
     "mocha": "mocha --recursive --compilers js:babel-core/register",
     "mocha:watch": "npm run mocha -- --watch",
-    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- --recursive --compilers js:babel/register --colors --reporter dot test/"
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- --recursive --compilers js:babel/register --colors --reporter dot test/",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -46,7 +48,8 @@
     "redux-thunk": "^1.0.0",
     "webpack-dev-middleware": "^1.2.0",
     "webpack-hot-middleware": "^2.4.1",
-    "yargs": "^3.18.0"
+    "yargs": "^3.18.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.0.3",
@@ -88,5 +91,6 @@
     "url-loader": "^0.5.6",
     "webpack": "^1.11.0",
     "webpack-dev-server": "^1.10.1"
-  }
+  },
+  "snyk": true
 }
