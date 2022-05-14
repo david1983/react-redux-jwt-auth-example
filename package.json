@@ -46,7 +46,7 @@
     "redux-thunk": "^1.0.0",
     "webpack-dev-middleware": "^1.2.0",
     "webpack-hot-middleware": "^2.4.1",
-    "yargs": "^3.18.0"
+    "yargs": "^13.2.4"
   },
   "devDependencies": {
     "autoprefixer": "^6.0.3",
