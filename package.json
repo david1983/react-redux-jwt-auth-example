@@ -33,7 +33,7 @@
     "jwt-decode": "^1.4.0",
     "method-override": "^2.3.5",
     "nock": "^8.0.0",
-    "react": "^0.14.0",
+    "react": "^15.0.0",
     "react-addons-linked-state-mixin": "^15.1.0",
     "react-bootstrap": "^0.27.3",
     "react-dom": "^16.0.1",
