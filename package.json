@@ -44,7 +44,7 @@
     "redux-logger": "^2.0.4",
     "redux-router": "^1.0.0-beta3",
     "redux-thunk": "^1.0.0",
-    "webpack-dev-middleware": "^1.2.0",
+    "webpack-dev-middleware": "^5.3.4",
     "webpack-hot-middleware": "^2.4.1",
     "yargs": "^3.18.0"
   },
